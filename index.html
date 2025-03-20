@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote-box" id="quoteBox">
+            <div class="quote-text" id="quoteText"></div>
+            <div class="author" id="authorText"></div>
+        </div>
+        
+        <div class="button-group">
+            <button onclick="getNewQuote()" id="newQuoteBtn">New Quote</button>
+            <button onclick="copyToClipboard()" id="copyBtn">Copy</button>
+            <button onclick="shareOnTwitter()" id="twitterBtn">Share</button>
+            <button onclick="exportQuote()" class="export-btn">Export</button>
+        </div>
+    </div>
+
+    <!-- Include required libraries for export feature -->
+    <script src="https://html2canvas.github.io/html2canvas/build/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
