@@ -26,4 +26,8 @@ Create a simple website that fetches and displays a random quote from an API, wi
 - **URL**: `https://api.freeapi.app/api/v1/public/quotes/quote/random`
 - **Documentation**: [API Guide](https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote)
 
----
+## Setup & Usage 🛠️ [[5]][[7]]  
+1. **Clone the repository**:  
+   ```bash  
+   git clone https://github.com/muneeb2560/Quote_Of_The_Day.git  
+
